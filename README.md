@@ -2,7 +2,7 @@
 
 > Simple javascript library to generate random text **emoticon**. [demo here](http://git.hust.cc/emoticon.js).
 
-![travis-ci](https://travis-ci.org/hustcc/emoticon.js.svg?branch=master)
+![travis-ci](https://travis-ci.org/hustcc/emoticon.js.svg?branch=master) ![npm](https://img.shields.io/npm/v/emoticon.js.svg?style=flat-square)
 
 
 # Usage
@@ -38,4 +38,4 @@ console.log(emoticon()); // {︶。︶}┛
 
 # LICENSE
 
-MIT @hustcc code from [emoticon/](https://phpz.org/emoticon/).
+MIT @hustcc code from [emoticon](https://phpz.org/emoticon/).
