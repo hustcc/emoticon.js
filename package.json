@@ -1,0 +1,41 @@
+{
+  "name": "emoticon.js",
+  "officialName": "emoticon.js",
+  "version": "1.0.0",
+  "summary": "simple javascript library to generate random text emoticon.",
+  "description": "simple javascript library to generate random text emoticon.",
+  "author": {
+    "name": "hustcc",
+    "url": "http://aibq.cn/"
+  },
+  "homepage": "http://aibq.cn/",
+  "license": "MIT",
+  "keywords": [
+    "颜文字",
+    "emoticon",
+    "random",
+    "emoji",
+    "emoji generator"
+  ],
+  "main": "dist/emoticon.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hustcc/emoticon.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hustcc/emoticon.js/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "gulp-rename": "^1.2.2"
+  },
+  "scripts": {
+    "lint": "jshint src/emoticon.js",
+    "test": "npm run lint && node test/index.js",
+    "build": "gulp mini && npm run test"
+  },
+  "dependencies": {
+  }
+}
